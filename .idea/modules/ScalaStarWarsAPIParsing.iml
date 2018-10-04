@@ -14,5 +14,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="scala-sdk-2.12.6" level="application" />
+    <orderEntry type="library" name="org.scalaj:scalaj-http_2.10:2.4.1" level="project" />
   </component>
 </module>

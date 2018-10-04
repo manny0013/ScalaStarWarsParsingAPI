@@ -4,7 +4,7 @@
 		module="scalastarwarsapiparsing_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20181004184723"
+		publication="20181004190925"
 	>
 		<description>
 		ScalaStarWarsAPIParsing

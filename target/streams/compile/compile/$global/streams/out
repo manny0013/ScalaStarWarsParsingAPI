@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/Manny/IdeaProjects/ScalaStarWarsAPIParsing/src/main/scala/ScalaStarWarsAPIParsing/Main.scala:3:48: not found: value square[0m
-[0m[[0m[31merror[0m] [0m[0m  def area(radius: Double): Double = 3.14159 * square(radius)[0m
-[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Manny/IdeaProjects/ScalaStarWarsAPIParsing/src/main/scala/ScalaStarWarsAPIParsing/Main.scala:11:5: not found: value abs[0m
+[0m[[0m[31merror[0m] [0m[0m    abs(guess * guess - x) < 0.001[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
