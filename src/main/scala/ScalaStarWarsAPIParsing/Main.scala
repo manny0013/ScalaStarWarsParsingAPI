@@ -1,4 +1,6 @@
 object Main extends App {
 
-  println(16.toHexString)
+  def area(radius: Double): Double = 3.14159 * square(radius)
+
+  println(area(10))
 }
