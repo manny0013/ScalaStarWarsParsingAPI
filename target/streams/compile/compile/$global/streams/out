@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/Manny/IdeaProjects/ScalaStarWarsAPIParsing/src/main/scala/ScalaStarWarsAPIParsing/Main.scala:11:5: not found: value abs[0m
-[0m[[0m[31merror[0m] [0m[0m    abs(guess * guess - x) < 0.001[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Manny/IdeaProjects/ScalaStarWarsAPIParsing/src/main/scala/ScalaStarWarsAPIParsing/Main.scala:2:8: not found: object scalaj[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalaj.http.Http[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Manny/IdeaProjects/ScalaStarWarsAPIParsing/src/main/scala/ScalaStarWarsAPIParsing/Main.scala:7:11: not found: value Http[0m
+[0m[[0m[31merror[0m] [0m[0m  println(Http(BaseURL).asString)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

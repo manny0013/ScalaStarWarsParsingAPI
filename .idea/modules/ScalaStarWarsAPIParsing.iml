@@ -13,7 +13,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="scala-sdk-2.12.6" level="application" />
-    <orderEntry type="library" name="org.scalaj:scalaj-http_2.10:2.4.1" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalaj:scalaj-http_2.12:2.4.1:jar" level="project" />
   </component>
 </module>

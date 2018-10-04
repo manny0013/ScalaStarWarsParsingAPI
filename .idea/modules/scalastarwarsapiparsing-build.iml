@@ -104,6 +104,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="org.scalaj:scalaj-http_2.10:2.4.1" level="project" />
   </component>
   <component name="SbtModule">
     <option name="buildForId" value="scalastarwarsapiparsing" />
