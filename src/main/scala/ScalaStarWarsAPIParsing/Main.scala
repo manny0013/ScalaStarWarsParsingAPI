@@ -1,4 +1,4 @@
 object Main extends App {
 
-  println("Hello, " ++ "Scala!")
+  println(16.toHexString)
 }
