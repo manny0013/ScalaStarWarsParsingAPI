@@ -14,6 +14,8 @@ object Main extends App {
   val MainPage: List[String] = fetch(BaseURL).data.text.split(",").toList
   val TotalPages = MainPage(0).split(":")(1)
   println("Total Entries = "++TotalPages++"\n")
+
+  println("\n Fetching data from SWAPI... \n")
   var ParsedDataString = new ListBuffer[String]()
   var ParsedDataMap = new ListBuffer[Map[String,Any]]()
   var TotalCount = ParsedDataString.length
