@@ -7,26 +7,25 @@
 		revision="0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181005084623"/>
+		date="20181005091714"/>
 	<dependencies>
-		<module organisation="org.scalaj" name="scalaj-http_2.12">
-			<revision name="2.4.1" status="release" pubdate="20180728115243" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scalaj/scalaj-http" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
-				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="3440" time="0" location="/Users/Manny/.ivy2/cache/org.scalaj/scalaj-http_2.12/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.4.1/scalaj-http_2.12-2.4.1.pom"/>
-				<caller organisation="default" name="scalastarwarsapiparsing_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="0.1"/>
+		<module organisation="com.lihaoyi" name="requests_2.12">
+			<revision name="0.1.4" status="release" pubdate="20180818011700" resolver="public" artresolver="public" homepage="https://github.com/lihaoyi/requests" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="successful" details="" size="1180" time="132" location="/Users/Manny/.ivy2/cache/com.lihaoyi/requests_2.12/ivy-0.1.4.xml" searched="true" original-local-location="/Users/Manny/.ivy2/cache/com.lihaoyi/requests_2.12/ivy-0.1.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/requests_2.12/0.1.4/requests_2.12-0.1.4.pom"/>
+				<caller organisation="default" name="scalastarwarsapiparsing_2.12" conf="compile, runtime-internal, runtime, optional" rev="0.1.4" rev-constraint-default="0.1.4" rev-constraint-dynamic="0.1.4" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="scalaj-http_2.12" type="jar" ext="jar" status="no" details="" size="127996" time="0" location="/Users/Manny/.ivy2/cache/org.scalaj/scalaj-http_2.12/jars/scalaj-http_2.12-2.4.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.4.1/scalaj-http_2.12-2.4.1.jar"/>
+					<artifact name="requests_2.12" type="jar" ext="jar" status="successful" details="" size="103504" time="258" location="/Users/Manny/.ivy2/cache/com.lihaoyi/requests_2.12/jars/requests_2.12-0.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/requests_2.12/0.1.4/requests_2.12-0.1.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.12.7" status="release" pubdate="20180927043542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+			<revision name="2.12.7" status="release" pubdate="20180927043542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/Manny/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.pom"/>
 				<caller organisation="default" name="scalastarwarsapiparsing_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.1"/>
-				<caller organisation="org.scalaj" name="scalaj-http_2.12" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.4.1"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5277511" time="0" location="/Users/Manny/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar"/>

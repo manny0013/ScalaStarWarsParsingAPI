@@ -1,5 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/Manny/IdeaProjects/ScalaStarWarsAPIParsing/src/main/scala/ScalaStarWarsAPIParsing/Main.scala:6:52: not enough arguments for method apply: (url: String, method: String, connectFunc: scalaj.http.HttpConstants.HttpExec, params: Seq[(String, String)], headers: Seq[(String, String)], options: Seq[scalaj.http.HttpOptions.HttpOption], proxyConfig: Option[java.net.Proxy], charset: String, sendBufferSize: Int, urlBuilder: scalaj.http.HttpRequest => String, compress: Boolean, digestCreds: Option[(String, String)])scalaj.http.HttpRequest in object HttpRequest.[0m
-[0m[[0m[31merror[0m] [0m[0mUnspecified value parameters method, connectFunc, params...[0m
-[0m[[0m[31merror[0m] [0m[0m  def fetch(URL: String): String = http.HttpRequest(URL).asString[0m
-[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Manny/IdeaProjects/ScalaStarWarsAPIParsing/src/main/scala/ScalaStarWarsAPIParsing/Main.scala:18:38: not found: value x[0m
+[0m[[0m[31merror[0m] [0m[0m    val fetchedData = fetch(BaseURL++x.toString++"/")[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
