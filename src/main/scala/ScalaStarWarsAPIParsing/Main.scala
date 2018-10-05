@@ -1,8 +1,10 @@
 
-import scalaj.http.Http
+import scalaj.http.{Http, HttpResponse}
 
 object Main extends App {
-  val BaseURL = "https://swapi.co/api/people/"
 
-  println(Http(BaseURL).asString)
+  def fetch(URL: String): HttpResponse[String] = Http(URL).asString
+  val BaseURL = "https://swapi.co/api/people/1/"
+
+  println(fetch(BaseURL))
 }
